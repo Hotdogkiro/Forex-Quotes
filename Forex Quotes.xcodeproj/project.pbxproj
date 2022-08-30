@@ -7,22 +7,86 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B32F4DAF27515E3900FE9D36 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32F4DAE27515E3900FE9D36 /* DetailView.swift */; };
+		B32F4DB12751640200FE9D36 /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32F4DB02751640200FE9D36 /* LineChart.swift */; };
+		B3422ACD27B992720095B89A /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B6EB3627ABDD36005A3CDF /* WidgetKit.framework */; };
+		B3422ACE27B992720095B89A /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B6EB3827ABDD36005A3CDF /* SwiftUI.framework */; };
+		B3422AD127B992720095B89A /* ForexQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3422AD027B992720095B89A /* ForexQuotes.swift */; };
+		B3422AD427B992730095B89A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3422AD327B992730095B89A /* Assets.xcassets */; };
+		B3422AD627B992730095B89A /* ForexQuotes.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = B3422AD227B992720095B89A /* ForexQuotes.intentdefinition */; };
+		B3422AD727B992730095B89A /* ForexQuotes.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = B3422AD227B992720095B89A /* ForexQuotes.intentdefinition */; };
+		B3422ADA27B992730095B89A /* ForexQuotesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B3422ACC27B992720095B89A /* ForexQuotesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B3422ADE27B992C50095B89A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B368D6BA27502474004429DF /* Data.swift */; };
+		B3422AE127B9931A0095B89A /* DetailViewWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3525E8927B96B90004AE3F2 /* DetailViewWidget.swift */; };
+		B3422AE227B9931A0095B89A /* DetailViewWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3525E8927B96B90004AE3F2 /* DetailViewWidget.swift */; };
+		B3422AE427BA4FC00095B89A /* WidgetCurrencyPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3422AE327BA4FC00095B89A /* WidgetCurrencyPair.swift */; };
+		B3422AE527BA502D0095B89A /* WidgetCurrencyPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3422AE327BA4FC00095B89A /* WidgetCurrencyPair.swift */; };
 		B368D6AA274EB908004429DF /* Forex_QuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B368D6A9274EB908004429DF /* Forex_QuotesApp.swift */; };
-		B368D6AC274EB908004429DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B368D6AB274EB908004429DF /* ContentView.swift */; };
+		B368D6AC274EB908004429DF /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B368D6AB274EB908004429DF /* MainScreen.swift */; };
 		B368D6AE274EB90B004429DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B368D6AD274EB90B004429DF /* Assets.xcassets */; };
 		B368D6B1274EB90B004429DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B368D6B0274EB90B004429DF /* Preview Assets.xcassets */; };
+		B368D6B9274EB97A004429DF /* CurrencyPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B368D6B8274EB97A004429DF /* CurrencyPairs.swift */; };
+		B368D6BB27502474004429DF /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B368D6BA27502474004429DF /* Data.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B3422AD827B992730095B89A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B368D69E274EB908004429DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3422ACB27B992720095B89A;
+			remoteInfo = ForexQuotesExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B3B6EB4627ABDD37005A3CDF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B3422ADA27B992730095B89A /* ForexQuotesExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		B32F4DAE27515E3900FE9D36 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		B32F4DB02751640200FE9D36 /* LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		B3422ACC27B992720095B89A /* ForexQuotesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ForexQuotesExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3422AD027B992720095B89A /* ForexQuotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForexQuotes.swift; sourceTree = "<group>"; };
+		B3422AD227B992720095B89A /* ForexQuotes.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = ForexQuotes.intentdefinition; sourceTree = "<group>"; };
+		B3422AD327B992730095B89A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3422AD527B992730095B89A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3422AE327BA4FC00095B89A /* WidgetCurrencyPair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetCurrencyPair.swift; sourceTree = "<group>"; };
+		B3525E8927B96B90004AE3F2 /* DetailViewWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewWidget.swift; sourceTree = "<group>"; };
+		B3525E9427B97F13004AE3F2 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		B3525E9F27B97F13004AE3F2 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
 		B368D6A6274EB908004429DF /* Forex Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Forex Quotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B368D6A9274EB908004429DF /* Forex_QuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forex_QuotesApp.swift; sourceTree = "<group>"; };
-		B368D6AB274EB908004429DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B368D6AB274EB908004429DF /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		B368D6AD274EB90B004429DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B368D6B0274EB90B004429DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B368D6B2274EB90B004429DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B368D6B8274EB97A004429DF /* CurrencyPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPairs.swift; sourceTree = "<group>"; };
+		B368D6BA27502474004429DF /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		B3B6EB3627ABDD36005A3CDF /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		B3B6EB3827ABDD36005A3CDF /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B3422AC927B992720095B89A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3422ACE27B992720095B89A /* SwiftUI.framework in Frameworks */,
+				B3422ACD27B992720095B89A /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B368D6A3274EB908004429DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,10 +97,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B3422ACF27B992720095B89A /* ForexQuotes */ = {
+			isa = PBXGroup;
+			children = (
+				B3525E8927B96B90004AE3F2 /* DetailViewWidget.swift */,
+				B3422AD027B992720095B89A /* ForexQuotes.swift */,
+				B3422AD227B992720095B89A /* ForexQuotes.intentdefinition */,
+				B3422AD327B992730095B89A /* Assets.xcassets */,
+				B3422AD527B992730095B89A /* Info.plist */,
+				B3422AE327BA4FC00095B89A /* WidgetCurrencyPair.swift */,
+			);
+			path = ForexQuotes;
+			sourceTree = "<group>";
+		};
 		B368D69D274EB908004429DF = {
 			isa = PBXGroup;
 			children = (
 				B368D6A8274EB908004429DF /* Forex Quotes */,
+				B3422ACF27B992720095B89A /* ForexQuotes */,
+				B3B6EB3527ABDD36005A3CDF /* Frameworks */,
 				B368D6A7274EB908004429DF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				B368D6A6274EB908004429DF /* Forex Quotes.app */,
+				B3422ACC27B992720095B89A /* ForexQuotesExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,10 +133,14 @@
 			isa = PBXGroup;
 			children = (
 				B368D6A9274EB908004429DF /* Forex_QuotesApp.swift */,
-				B368D6AB274EB908004429DF /* ContentView.swift */,
+				B368D6B8274EB97A004429DF /* CurrencyPairs.swift */,
+				B368D6AB274EB908004429DF /* MainScreen.swift */,
 				B368D6AD274EB90B004429DF /* Assets.xcassets */,
 				B368D6B2274EB90B004429DF /* Info.plist */,
 				B368D6AF274EB90B004429DF /* Preview Content */,
+				B368D6BA27502474004429DF /* Data.swift */,
+				B32F4DAE27515E3900FE9D36 /* DetailView.swift */,
+				B32F4DB02751640200FE9D36 /* LineChart.swift */,
 			);
 			path = "Forex Quotes";
 			sourceTree = "<group>";
@@ -69,9 +153,37 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B3B6EB3527ABDD36005A3CDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3B6EB3627ABDD36005A3CDF /* WidgetKit.framework */,
+				B3B6EB3827ABDD36005A3CDF /* SwiftUI.framework */,
+				B3525E9427B97F13004AE3F2 /* Intents.framework */,
+				B3525E9F27B97F13004AE3F2 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B3422ACB27B992720095B89A /* ForexQuotesExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3422ADB27B992730095B89A /* Build configuration list for PBXNativeTarget "ForexQuotesExtension" */;
+			buildPhases = (
+				B3422AC827B992720095B89A /* Sources */,
+				B3422AC927B992720095B89A /* Frameworks */,
+				B3422ACA27B992720095B89A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForexQuotesExtension;
+			productName = ForexQuotesExtension;
+			productReference = B3422ACC27B992720095B89A /* ForexQuotesExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		B368D6A5274EB908004429DF /* Forex Quotes */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B368D6B5274EB90B004429DF /* Build configuration list for PBXNativeTarget "Forex Quotes" */;
@@ -79,10 +191,12 @@
 				B368D6A2274EB908004429DF /* Sources */,
 				B368D6A3274EB908004429DF /* Frameworks */,
 				B368D6A4274EB908004429DF /* Resources */,
+				B3B6EB4627ABDD37005A3CDF /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B3422AD927B992730095B89A /* PBXTargetDependency */,
 			);
 			name = "Forex Quotes";
 			productName = "Forex Quotes";
@@ -95,9 +209,12 @@
 		B368D69E274EB908004429DF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1250;
+				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					B3422ACB27B992720095B89A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					B368D6A5274EB908004429DF = {
 						CreatedOnToolsVersion = 12.5;
 					};
@@ -117,11 +234,20 @@
 			projectRoot = "";
 			targets = (
 				B368D6A5274EB908004429DF /* Forex Quotes */,
+				B3422ACB27B992720095B89A /* ForexQuotesExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B3422ACA27B992720095B89A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3422AD427B992730095B89A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B368D6A4274EB908004429DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -134,18 +260,103 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B3422AC827B992720095B89A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3422AD627B992730095B89A /* ForexQuotes.intentdefinition in Sources */,
+				B3422ADE27B992C50095B89A /* Data.swift in Sources */,
+				B3422AD127B992720095B89A /* ForexQuotes.swift in Sources */,
+				B3422AE227B9931A0095B89A /* DetailViewWidget.swift in Sources */,
+				B3422AE427BA4FC00095B89A /* WidgetCurrencyPair.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B368D6A2274EB908004429DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B368D6AC274EB908004429DF /* ContentView.swift in Sources */,
+				B368D6AC274EB908004429DF /* MainScreen.swift in Sources */,
 				B368D6AA274EB908004429DF /* Forex_QuotesApp.swift in Sources */,
+				B3422AE527BA502D0095B89A /* WidgetCurrencyPair.swift in Sources */,
+				B3422AD727B992730095B89A /* ForexQuotes.intentdefinition in Sources */,
+				B32F4DB12751640200FE9D36 /* LineChart.swift in Sources */,
+				B368D6B9274EB97A004429DF /* CurrencyPairs.swift in Sources */,
+				B3422AE127B9931A0095B89A /* DetailViewWidget.swift in Sources */,
+				B32F4DAF27515E3900FE9D36 /* DetailView.swift in Sources */,
+				B368D6BB27502474004429DF /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		B3422AD927B992730095B89A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3422ACB27B992720095B89A /* ForexQuotesExtension */;
+			targetProxy = B3422AD827B992730095B89A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		B3422ADC27B992730095B89A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MUNX697CZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ForexQuotes/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ForexQuotes;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.dominik.Forex-Quotes.ForexQuotes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3422ADD27B992730095B89A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MUNX697CZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ForexQuotes/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ForexQuotes;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.dominik.Forex-Quotes.ForexQuotes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		B368D6B3274EB90B004429DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -265,6 +476,7 @@
 		B368D6B6274EB90B004429DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +499,7 @@
 		B368D6B7274EB90B004429DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,6 +522,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B3422ADB27B992730095B89A /* Build configuration list for PBXNativeTarget "ForexQuotesExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3422ADC27B992730095B89A /* Debug */,
+				B3422ADD27B992730095B89A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B368D6A1274EB908004429DF /* Build configuration list for PBXProject "Forex Quotes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
